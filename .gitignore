@@ -1,0 +1,9 @@
+/packages
+
+.vs/Fanex.Linq/v14/.suo
+*/obj/*
+*/bin/*
+*/debug/*
+.vs/
+*.nupkg
+packages/
