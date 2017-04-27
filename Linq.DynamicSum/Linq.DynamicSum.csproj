@@ -7,8 +7,8 @@
     <ProjectGuid>{64E1552D-A5A6-48A3-874B-89327A21ABA5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xavi.LinqExtension</RootNamespace>
-    <AssemblyName>Xavi.LinqExtension</AssemblyName>
+    <RootNamespace>Linq.DynamicSum</RootNamespace>
+    <AssemblyName>Linq.DynamicSum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -7,8 +7,8 @@
     <ProjectGuid>{BC2F4D64-75A8-4FC6-8560-9C12983B72E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xavi.LinqExtension.UnitTests</RootNamespace>
-    <AssemblyName>Xavi.LinqExtension.UnitTests</AssemblyName>
+    <RootNamespace>Linq.DynamicSum.UnitTests</RootNamespace>
+    <AssemblyName>Linq.DynamicSum.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -67,7 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumSimpleObjectUnitTests.Model.cs" />
     <Compile Include="SumSimpleObjectUnitTests.TestCaseProvider.cs" />
-    <Compile Include="TestModel\CalculationObject.cs" />
     <Compile Include="TestModel\PercentageObject.cs" />
     <Compile Include="TestModel\SimpleObject.cs" />
   </ItemGroup>
