@@ -51,9 +51,9 @@ namespace Linq.DynamicSum.UnitTests
         public IEnumerator<ITestCaseData> GetEnumerator()
         {
             yield return new TestCaseData(emptyListOfPercentageObjects)
-                .SetName("emptyListOfPercentageObjects, Return default");
+                .SetName("DynamicSum - emptyListOfPercentageObjects, Return default");
             yield return new TestCaseData(listOfPercentageObjects)
-                .SetName("listOfPercentageObjects, Return right sum percentage object");
+                .SetName("DynamicSum - listOfPercentageObjects, Return right sum percentage object");
         }
 
         IEnumerator IEnumerable.GetEnumerator()

@@ -1,6 +1,10 @@
-Example:
+# Linq.DynamicSum
 
-Implement operator +
+Extension to return sum value of list of objects
+
+# DynamicSum
+
+### Implement operator +
 
     public class SimpleObject
     {
@@ -29,6 +33,11 @@ Implement operator +
     }
 
 
-Usage:
+### Usage:
 
     var sum = sequence.DynamicSum();
+
+# CalculateSummaryEntity
+
+### Usage
+	SummaryEntity<SimpleObject> summary = sequence.CalculateSummaryEntity();

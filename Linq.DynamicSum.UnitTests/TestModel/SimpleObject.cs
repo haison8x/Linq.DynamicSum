@@ -19,7 +19,7 @@
         {
             return new SimpleObject
             {
-                Name = object1.Name,
+                Name = string.Empty,
                 Quantity = object1.Quantity + object2.Quantity,
                 Price = 0,
             };

@@ -10,7 +10,7 @@ namespace Linq.DynamicSum.UnitTests
     {
         private static SimpleObject expectedSimpleObject = new SimpleObject
         {
-            Name = "Soccer",
+            Name = string.Empty,
             Price = 0,
             Quantity = 400
         };
@@ -44,9 +44,9 @@ namespace Linq.DynamicSum.UnitTests
         public IEnumerator<ITestCaseData> GetEnumerator()
         {
             yield return new TestCaseData(emptyListOfSimpleObjects)
-                .SetName("emptyListOfSimpleObjects, Return default");
+                .SetName("DynamicSum - emptyListOfSimpleObjects, Return default");
             yield return new TestCaseData(listOfSimpleObjects)
-                .SetName("listOfSimpleObjects, Return right sum object");
+                .SetName("DynamicSum - listOfSimpleObjects, Return right sum object");
         }
 
         IEnumerator IEnumerable.GetEnumerator()

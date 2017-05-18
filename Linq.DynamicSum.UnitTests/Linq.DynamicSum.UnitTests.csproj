@@ -60,13 +60,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculateSummaryEntityUnitTests.Model.cs" />
     <Compile Include="SumPercentageObjectUnitTests.Model.cs" />
     <Compile Include="SumPercentageObjectUnitTets.TestCaseProvider.cs" />
+    <Compile Include="CalculateSummaryEntityUnitTests.cs" />
     <Compile Include="SumSimpleObjectUnitTests.cs" />
     <Compile Include="SumPercentageObjectUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumSimpleObjectUnitTests.Model.cs" />
     <Compile Include="SumSimpleObjectUnitTests.TestCaseProvider.cs" />
+    <Compile Include="CalculateSummaryEntityUnitTests.TestCaseProvider.cs" />
     <Compile Include="TestModel\PercentageObject.cs" />
     <Compile Include="TestModel\SimpleObject.cs" />
   </ItemGroup>

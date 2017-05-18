@@ -6,7 +6,7 @@ namespace Linq.DynamicSum.UnitTests
     public class SumPercentageObjectUnitTests
     {
         [TestCaseSource(typeof(SumPercentageObjectUnitTetsTestCaseProvider))]
-        public void ListOfPercentageObjects_ReturnsRightResult(SumPercentageObjectUnitTestsModel dataTest)
+        public void DynamicSum_ListOfPercentageObjects_ReturnsRightSumValue(SumPercentageObjectUnitTestsModel dataTest)
         {
             var actualResult = dataTest.Input.DynamicSum();
 
